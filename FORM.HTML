@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scael=1.0">
+    <title>
+        SPACE CAKEES !!!!
+    </title>
+    <style>
+        *   {
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color:black;
+            padding: 24px;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Registra tu Pedido Aquí</h1>
+    </header>
+    <h2>Datos de Cliente</h2>
+    <!-----Recolección de datos-->
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre"form=form1><br><br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+    <label for="Telefono">Telefono:</label>
+    <input type="tel" id="Telefono" name="Telefono"form=form1><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" form="form1"><br><br>
+    <label for="fecha de entrega">Fecha:</label>
+    <input type="date" id="fecha1" name="fecha1"><br><br>
+
+    <h2>Arma tu pastel con nuestras espacialidades</h2>
+    <input type="checkbox" id="topping1" name="topping1" value="Chocolate Galactico">
+    <label for="topping1">Chocolate Galactico</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="3 Vía lacteas">
+    <label for="topping2">3 Vía lacteas</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Pay quesospacial">
+    <label for="topping3">Pay quesospacial</label><br><br>
+    
+
+    <form action="/accion.js" id="form1" method="post">
+        <input type="submit" value="Submit">
+        <input type="reset"><br>
+    </form>
+
+</body>
+
+</html>
